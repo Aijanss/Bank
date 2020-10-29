@@ -7,8 +7,6 @@ public class LimitExceptoin extends Exception {
         super(message);
         this.remainingAmount = remainingAmount;
     }
-
-
     public double getRemainingAmount() {
         return getRemainingAmount();
     }
